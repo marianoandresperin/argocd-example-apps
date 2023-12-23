@@ -14,7 +14,7 @@ spec:
         app: nginx-app
     spec:
       containers:
-      - image: nginx:1.24-perl
+      - image: nginx:1.24.0-perl
         name: nginx
         ports:
         - containerPort: 80
